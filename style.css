@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+.menu {
+    margin: 1rem;
+    display: flex;
+    & li {
+        list-style: none;
+        margin:0 4rem;
+        & a {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+        }
+    }
+}
